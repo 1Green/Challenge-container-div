@@ -6,12 +6,37 @@ html * {
 body {
 	background-color:#CCC;
 	transition:all 3s ease-in-out;
+	width:100%;
+	
 }
 
-body:hover {
-	background-color:#333;
+#butts {
+	margin:40px auto 40px auto;
+	text-align: center;
 }
 
+button {
+	position:relative;
+	top:0;
+	transition:all 0.2s ease-in-out;
+	box-shadow: 0 0 1px 1px black;
+}
+
+button:hover {
+	position:relative;
+	top:-3px;
+	box-shadow: 0 3px 7px 1px black;
+}
+
+a:hover {
+	color:#69E5DE;
+}
+
+.but1 {
+	margin:0 15px;
+	width:10%;
+	height:7%;
+}
 
 
 a  {
@@ -30,7 +55,7 @@ a:hover {
 .container {
 	text-align: center;
 	width:60vw;
-	margin:0 auto;
+	margin:0 auto 70px auto;
 	background-color:#59585A;
 	padding:20px;
 	box-shadow: 0 0 3px 2px black;
@@ -41,22 +66,7 @@ a:hover {
 	transition: all 0.3s ease-in-out;
 }
 
-.container:hover {
-	background-color:#CCC;
-}
 
-.container:hover > * {
-	background-color:#333;
-	color:white;
-}
-
-.container:hover a {
-	color:#EEE;
-}
-
-.container:hover p {
-	color:#EEE;
-}
 
 .container > * {
 	width:90%;
@@ -146,6 +156,11 @@ article .img {
 	article .img {
 	margin-right: 80px;
 }
+.but1 {
+	margin:0 15px;
+	width:25%;
+	height:7%;
+}
 }
 
 @media screen and (max-width: 980px) {
@@ -162,12 +177,22 @@ article .img {
 	article .right {
 		display:block;
 	}
+	
+	.but1 {
+	margin:0 15px;
+	width:30%;
+	height:7%;
+}
+	
 }
 
 
 footer ul {
 	margin-top:50px;
 }
+
+
+
 
 
 footer ul li {
@@ -190,7 +215,11 @@ footer ul li {
 		margin:30px 0 0 30px;
 
 	}
-
+.but1 {
+	margin:0 15px;
+	width:40%;
+	height:7%;
+}
 
 
 }

@@ -3,34 +3,82 @@
 	<head>
 	
 		<title>My Page</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	
+		
+		<script type="text/javascript">
+					
+					function theme() {
+					document.getElementById("scr").style.backgroundColor = "#CCC";
+					document.getElementById("scr2").style.backgroundColor = "#333";
+					document.getElementById("scr3").style.backgroundColor = "#333";
+					document.getElementById("scr3").style.color = "white";
+					document.getElementById("scr4").style.backgroundColor = "#333";
+					document.getElementById("scr4").style.color = "white";
+					document.getElementById("scr5").style.backgroundColor = "#333";
+					document.getElementById("scr5").style.color = "white";
+					document.getElementById("scr6").style.backgroundColor = "#333";
+					document.getElementById("scr6").style.color = "white";
+					document.getElementById("l1").style.color = "white";
+					document.getElementById("l2").style.color = "white";
+					document.getElementById("l3").style.color = "white";
+					document.getElementById("l4").style.color = "white";
+					document.getElementById("l5").style.color = "white";
+					document.getElementById("l6").style.color = "white";
+					}
+
+
+					function theme2 () {
+					document.getElementById("scr").style.backgroundColor = "#59585A";
+					document.getElementById("scr2").style.backgroundColor = "#CCC";
+					document.getElementById("scr3").style.backgroundColor = "#CCC";
+					document.getElementById("scr3").style.color = "black";
+					document.getElementById("scr4").style.backgroundColor = "#CCC";
+					document.getElementById("scr4").style.color = "black";
+					document.getElementById("scr5").style.backgroundColor = "#CCC";
+					document.getElementById("scr5").style.color = "black";
+					document.getElementById("scr6").style.backgroundColor = "#CCC";
+					document.getElementById("scr6").style.color = "black";
+					document.getElementById("l1").style.color = "black";
+					document.getElementById("l2").style.color = "black";
+					document.getElementById("l3").style.color = "black";
+					document.getElementById("l4").style.color = "black";
+					document.getElementById("l5").style.color = "black";
+					document.getElementById("l6").style.color = "black";
+				}
+		</script>
 	</head>
 	
-	<body>
-
-		<div class="container">		
+	<body id="scr2">
 		
-		<header>
+		<div id="butts">
+		<button class="but1" onclick="theme()">Dark Theme</button> 
+		<button class="but1" onclick="theme2()">Light Theme</button> 
+	</div>
+
+		<div id="scr" class="container">		
+		 
+		<header id="scr3">
 			<img src="head.jpg">
 			<h1>Nicholas Greenway</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</header>
 
-		<main>
+		<main id="scr4">
 			
 			<ul>
-				<li><a href="#"><i class="fa fa-twitter"></i>    Twitter</a></li>
-				<li><a href="#"><i class="fa fa-facebook"></i>    Facebook</a></li>
-				<li><a href="#"><i class="fa fa-linkedin-square"></i>    Linkedin</a></li>
+				<li><a id="l1" href="#"><i class="fa fa-twitter"></i>    Twitter</a></li>
+				<li><a id="l2" href="#"><i class="fa fa-facebook"></i>    Facebook</a></li>
+				<li><a id="l3" href="#"><i class="fa fa-linkedin-square"></i>    Linkedin</a></li>
 			</ul>
 
 		</main>		
 
-		<article>
+		<article id="scr5">
 			
 			<h1>My Movie List</h1>
 			
@@ -68,14 +116,14 @@
 
 		</article>
 
-		<footer>
+		<footer id="scr6">
 			
 			<h1>About This Page</h1>
 
 			<ul>
-				<li><a href="#"><i class="fa fa-twitter"></i>   Twitter</a></li>
-				<li><a href="#"><i class="fa fa-facebook"></i>    Facebook</a></li>
-				<li><a href="#"><i class="fa fa-linkedin-square"></i>    Linkedin</a></li>
+				<li><a id="l4" href="#"><i class="fa fa-twitter"></i>   Twitter</a></li>
+				<li><a id="l5" href="#"><i class="fa fa-facebook"></i>    Facebook</a></li>
+				<li><a id="l6" href="#"><i class="fa fa-linkedin-square"></i>    Linkedin</a></li>
 			</ul>
 			
 
